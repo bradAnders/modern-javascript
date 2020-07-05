@@ -9,9 +9,8 @@ const likes = 30;
 // console.log(result);
 
 // template string way
-
-// let result = `The blog called ${title} by ${author} has ${likes} likes`;
-// console.log(result);
+let result = `The blog called ${title} by ${author} has ${likes} likes`;
+console.log(result);
 
 // creating html templates
 let html = `
@@ -21,9 +20,3 @@ let html = `
 `;
 
 console.log(html);
-
-
-
-
-
-
